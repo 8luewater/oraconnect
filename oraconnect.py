@@ -36,7 +36,6 @@ def database_conn():
 
     return conn, cur
 
-
 def main():
     print(f"Hi GA: User {db_user}")
     #database_conn()
