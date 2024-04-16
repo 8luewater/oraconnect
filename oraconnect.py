@@ -38,7 +38,7 @@ def database_conn():
 
 
 def main():
-    print(f"Hi GA: User {db_user} | Conn {db_conn_string} | Pwd {db_password}")
+    print(f"Hi GA: User {db_user}")
     #database_conn()
     database_select_table()
 
