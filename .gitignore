@@ -1,5 +1,6 @@
 # GA custom files
 GADockerfile
+Dockerfile
 .env
 
 # Ignore _localonly

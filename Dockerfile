@@ -1,5 +1,10 @@
 # Use Python 3.11 Slim Buster as base image
-FROM python:3.11.3-slim-buster
+# ---------- ubuntu:jammy-20231211.1 ----------
+#FROM python:3.11.3-slim-buster
+FROM ubuntu:jammy-20231211.1
+# ---------- ubuntu:jammy-20231211.1 ----------
+
+LABEL maintainer="Just van den Broecke <justb4@gmail.com>"
 
 # Set the working directory to contain everything at one place
 WORKDIR /opt/oracle
